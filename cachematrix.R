@@ -3,6 +3,12 @@
 
 ## makeCacheMAtrix is a vector of fucntions that store and retrive the inverted matrix
 
+## The special matrix is list containing functions to
+##    set the value of the matrix
+##    get the value of the matrix
+##    set the value of the inverse
+##    get the value of the inverse
+
 makeCacheMatrix <- function(x = matrix()) {
      inv <- NULL
      set <- function(y) {
